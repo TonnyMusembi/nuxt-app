@@ -5,5 +5,5 @@ import HabitList from "~/components/HabitList.vue";
 <template>
   <HabitList />
   <HabitForm />
-  <div class="text-teal-500">test</div>
+  <!-- <div class="text-teal-500">test</div> -->
 </template>
