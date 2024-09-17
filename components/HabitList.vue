@@ -1,4 +1,4 @@
-<script setup></script>
+<script setup lang="ts"></script>
 <template>
   <div>
     <form class="max-w-sm mx-auto">
