@@ -3,6 +3,9 @@
 // console.log(test);
 </script>
 <template>
+  <div class="flex items-center">
+    <NuxtLink to="/design">table</NuxtLink>
+  </div>
   <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-md mx-auto">
     <div class="flex items-center justify-between border-b pb-4 mb-4">
       <h2 class="text-xl font-semibold text-gray-800">Football Live Score</h2>
