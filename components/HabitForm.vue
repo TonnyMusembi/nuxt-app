@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const test = ref(10);
-console.log(test);
+// const test = ref(10);
+// console.log(test);
 </script>
 <template>
   <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-md mx-auto">
