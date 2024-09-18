@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const test = ref(10);
+console.log(test);
+</script>
 <template>
   <div class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-md mx-auto">
     <div class="flex items-center justify-between border-b pb-4 mb-4">
@@ -39,7 +42,6 @@
         <span>30' - First Half</span>
       </div>
     </div>
-
     <div class="bg-white p-4 rounded-lg shadow-md">
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-4">
