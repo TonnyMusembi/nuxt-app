@@ -73,5 +73,10 @@ const people = [
 </script>
 
 <template>
+  <div class="p-2 flex items-center">
+    <UButton color="primary" variant="solid">
+      <NuxtLink to="/habitform">Home</NuxtLink>
+    </UButton>
+  </div>
   <UTable :columns="columns" :rows="people" />
 </template>
