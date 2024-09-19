@@ -7,8 +7,8 @@ export default defineNuxtConfig({
     "pinia-plugin-persistedstate/nuxt",
     "@nuxt/eslint",
   ],
-colorMode: {
-    preference: 'light'
+  colorMode: {
+    preference: "primary",
   },
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
