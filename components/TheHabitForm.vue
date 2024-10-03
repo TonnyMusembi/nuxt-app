@@ -1,6 +1,16 @@
-<script setup lang="ts">
+<script setup>
 // const test = ref(10);
 // console.log(test);
+const selected = ref(null);
+
+const toggle = (value) => {
+  console.log(selected);
+  if (selected.value === value) {
+    selected.value = null;
+  } else {
+    selected.value = value;
+  }
+};
 </script>
 <template>
   <div class="max-h-screen overflow-y-auto">
@@ -65,6 +75,32 @@
           <span>90'+5' - Full Time</span>
         </div>
       </div>
+    </div>
+  </div>
+  <br />
+  <div class="bg-white p-4 rounded-lg shadow-md max-w-md mx-auto">
+    <div class="space-x-2">
+      <button
+        class="text-gray-400"
+        @click="toggle('1')"
+        :class="{ 'bg-blue-500 text-gray-700': selected === '1' }"
+      >
+        1
+      </button>
+      <button
+        class="text-gray-400"
+        @click="toggle('x')"
+        :class="{ 'bg-blue-500 text-gray-700': selected === 'x' }"
+      >
+        X
+      </button>
+      <button
+        class="text-gray-400"
+        @click="toggle('2')"
+        :class="{ 'bg-blue-500 text-gray-700': selected === '2' }"
+      >
+        2
+      </button>
     </div>
   </div>
 </template>
